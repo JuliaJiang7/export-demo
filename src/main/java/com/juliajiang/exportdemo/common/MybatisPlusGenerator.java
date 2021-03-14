@@ -1,4 +1,4 @@
-package com.juliajiang.exportdemo;
+package com.juliajiang.exportdemo.common;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
@@ -43,7 +43,7 @@ public class MybatisPlusGenerator {
         /// String projectPath = System.getProperty("user.dir");
         String projectPath = "/Users/jiangfan/Downloads";
         gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("jiangfan.julia@gamil.com");
+        gc.setAuthor("jiangfan.julia@gmail.com");
         gc.setOpen(true);
         gc.setServiceName("%sRepository");
         gc.setBaseResultMap(true);
